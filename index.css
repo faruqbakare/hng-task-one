@@ -1,0 +1,35 @@
+*{
+    background-color: #990011;
+}
+.image-container{
+        margin-top: 20px;
+        
+        height: 900px;
+        margin: auto;
+        margin-top: 20px;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid #FCF6F5;
+}
+img{
+    
+    border-radius: 45%;
+    
+    
+    
+}
+.info{
+    padding-left: 20px;
+    transition: ease-in 2s 
+}
+.time{
+    padding-left: 20px;
+
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FCF6F5;
+    font-size: 150px;
+}
