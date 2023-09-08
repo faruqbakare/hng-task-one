@@ -1,23 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HNG FIRST TASK</title>
-    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNG first task</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
 </head>
+
 <body>
-    <div class="image-container">
-        <img width="700px" src="./IMAGES/IMG-0910.jpg" alt="Olasubomi Bakare" data-testid="slackDisplayImage">
-    </div>
-    <div class="info">
-        <p data-testid="slackUserName">Name: Olasubomi Faruq Bakare</p>
-        <p data-testid="myTrack">Track: Frontend</p>
-    </div>
-    <div class="time">
-        <p data-testid="currentDayOfTheWeek" id="day">DAY</p>
-        <p data-testid="currentUTCTime" id="time">Time</p>
-    </div>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./IMAGES/IMG-0910.jpg" data-testid="slackDisplayImage"  alt="Olasubomi Faruq Bakare" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title" data-testid="slackUserName">Olasubomi Faruq</h1>
+            <p class="section__text__p2" data-testid="myTrack">Frontend Track</p>
+            <p class="section__text__p2" id="time" data-testid="currentUTCTime"></p>
+            <p class="section__text__p2" id="day" data-testid="currentDayOfTheWeek"></p>
+
+            <div id="socials-container">
+                <div class="btn-container">
+                    <a href="github.com" data-testid="githubURL"><button class="btn btn-color-2"> view the code
+                        <img src="./IMAGES/github.png" alt="My Github profile" class="icon"
+                            onclick="location.href='https://github.com/'" />
+                    </button></a>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <p>Copyright &#169; 2023 Olasubomi Bakare. All Rights Reserved.</p>
+    </footer>
+    <script src="./script.js" type="text/javascript"></script>
 </body>
 <script src="./script.js" type="text/javascript"></script>
 </html>
