@@ -5,7 +5,7 @@ const hours = now.getHours()
 const minutes = now.getMinutes()
 let PmNoon = null
 
-if (hours => 12){
+if (hours > 12){
     PmNoon = 'PM'
 }else{
     PmNoon = 'AM'
