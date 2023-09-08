@@ -17,7 +17,7 @@ function showTime () {
     let day = document.getElementById('day')
     day.innerHTML = `Its ${dayOfWeek} Today!`
     let time = document.getElementById("time")
-    time.innerHTML = `The time is ${hours > 12 ? hours - 12 : hours}:${minutes < 10 ? "0" + minutes : minutes}:${sec} ${PmNoon}`
+    time.innerHTML = `The time is ${hours}:${minutes < 10 ? "0" + minutes : minutes}:${sec} ${PmNoon}`
     
     }
 setInterval(showTime, 1000);
